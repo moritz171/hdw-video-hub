@@ -15,7 +15,25 @@
     body { font-family: 'Montserrat', sans-serif; background-color: var(--hdw-dark); color: white; }
     .accent-border { border-left: 4px solid var(--hdw-orange); }
     h2 { font-weight: 900; letter-spacing: -0.025em; text-transform: uppercase; }
+    /* Sektions-Überschriften: das dominanteste Text-Element jeder Karte */
+    .section-title {
+      font-size: clamp(1.75rem, 5vw, 2.25rem);
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+    }
     .section-card { background: var(--hdw-surface); padding: 1.5rem; border-radius: 0.5rem; border: 1px solid rgba(255,102,0,0.1); }
+    /* FAQ: YouTube-Titel neben dem Shorts-iFrame - groß, 900, zentriert */
+    .faq-title {
+      font-size: clamp(1.25rem, 4vw, 1.75rem);
+      font-weight: 900;
+      color: white;
+      line-height: 1.25;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: -0.01em;
+    }
   </style>
 </head>
 <body class="p-4 md:p-8">
@@ -34,7 +52,7 @@
     <div class="space-y-6">
 
       <div class="section-card accent-border">
-        <h2 class="text-lg mb-2">Wichtiges Zubehör</h2>
+        <h2 class="section-title mb-4">Wichtiges Zubehör</h2>
         
         <div class="flex flex-row items-center justify-between gap-4 py-4 border-b border-white/10 last:border-0">
           <div class="flex-1 w-2/3">
@@ -118,7 +136,7 @@
         </div>
         <div class="flex flex-row items-center justify-between gap-4 py-4 border-b border-white/10 last:border-0">
           <div class="flex-1 w-2/3">
-            <span class="text-sm font-bold text-white line-clamp-2 leading-tight uppercase">amzn.to</span>
+            <span class="text-sm font-bold text-white line-clamp-2 leading-tight uppercase">Topnorm24 - Senkschrauben Edelstahl M8x25 mm - 25</span>
           </div>
           <div class="w-32 flex-shrink-0">
             <a href="https://amzn.to/3QvKGhn" target="_blank" rel="noopener sponsored" class="block w-full bg-[#ff6600] hover:bg-orange-500 text-white text-[10px] font-black py-2 px-3 rounded text-center leading-[1.1] uppercase transition-colors">
@@ -128,7 +146,7 @@
         </div>
         <div class="flex flex-row items-center justify-between gap-4 py-4 border-b border-white/10 last:border-0">
           <div class="flex-1 w-2/3">
-            <span class="text-sm font-bold text-white line-clamp-2 leading-tight uppercase">amzn.to</span>
+            <span class="text-sm font-bold text-white line-clamp-2 leading-tight uppercase">Remmers Wohnraum-Lasur eiche, 0,75 Liter, Holzlasur innen, f</span>
           </div>
           <div class="w-32 flex-shrink-0">
             <a href="https://amzn.to/4nunk8p" target="_blank" rel="noopener sponsored" class="block w-full bg-[#ff6600] hover:bg-orange-500 text-white text-[10px] font-black py-2 px-3 rounded text-center leading-[1.1] uppercase transition-colors">
@@ -139,7 +157,7 @@
       </div>
 
       <div class="section-card accent-border">
-        <h2 class="text-lg mb-2">Wichtiges Werkzeug</h2>
+        <h2 class="section-title mb-4">Wichtiges Werkzeug</h2>
         
         <div class="flex flex-row items-center justify-between gap-4 py-4 border-b border-white/10 last:border-0">
           <div class="flex-1 w-2/3">
@@ -221,11 +239,11 @@
             </a>
           </div>
         </div>
-        <div id="more-0q8bpdcm" class="hidden">
+        <div id="more-eg971jz6" class="hidden">
           
         <div class="flex flex-row items-center justify-between gap-4 py-4 border-b border-white/10 last:border-0">
           <div class="flex-1 w-2/3">
-            <span class="text-sm font-bold text-white line-clamp-2 leading-tight uppercase">amzn.to</span>
+            <span class="text-sm font-bold text-white line-clamp-2 leading-tight uppercase">Topnorm24 - Senkschrauben Edelstahl M8x25 mm - 25</span>
           </div>
           <div class="w-32 flex-shrink-0">
             <a href="https://amzn.to/3QvKGhn" target="_blank" rel="noopener sponsored" class="block w-full bg-[#ff6600] hover:bg-orange-500 text-white text-[10px] font-black py-2 px-3 rounded text-center leading-[1.1] uppercase transition-colors">
@@ -235,7 +253,7 @@
         </div>
         <div class="flex flex-row items-center justify-between gap-4 py-4 border-b border-white/10 last:border-0">
           <div class="flex-1 w-2/3">
-            <span class="text-sm font-bold text-white line-clamp-2 leading-tight uppercase">amzn.to</span>
+            <span class="text-sm font-bold text-white line-clamp-2 leading-tight uppercase">Remmers Wohnraum-Lasur eiche, 0,75 Liter, Holzlasur innen, f</span>
           </div>
           <div class="w-32 flex-shrink-0">
             <a href="https://amzn.to/4nunk8p" target="_blank" rel="noopener sponsored" class="block w-full bg-[#ff6600] hover:bg-orange-500 text-white text-[10px] font-black py-2 px-3 rounded text-center leading-[1.1] uppercase transition-colors">
@@ -244,13 +262,13 @@
           </div>
         </div>
         </div>
-        <button type="button" onclick="document.getElementById('more-0q8bpdcm').classList.remove('hidden'); this.remove();" class="mt-4 w-full bg-transparent border-2 border-white/20 text-white hover:bg-white/10 font-black py-3 px-6 rounded uppercase text-xs transition-colors">
+        <button type="button" onclick="document.getElementById('more-eg971jz6').classList.remove('hidden'); this.remove();" class="mt-4 w-full bg-transparent border-2 border-white/20 text-white hover:bg-white/10 font-black py-3 px-6 rounded uppercase text-xs transition-colors">
           Mehr anzeigen (+2)
         </button>
       </div>
 
       <div class="section-card accent-border">
-        <h2 class="text-lg mb-4">Anleitung</h2>
+        <h2 class="section-title mb-4">Anleitung</h2>
         <div class="w-full h-40 mb-4 rounded-lg overflow-hidden border border-white/10 bg-slate-800">
           <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iMzM4IiB2aWV3Qm94PSIwIDAgNjAwIDMzOCI+CiAgICA8cmVjdCB3aWR0aD0iNjAwIiBoZWlnaHQ9IjMzOCIgZmlsbD0iIzE0MWMyNyIvPgogICAgPHJlY3QgeD0iMjU1IiB5PSIxMDQiIHdpZHRoPSI5MCIgaGVpZ2h0PSIxMTAiIHJ4PSI2IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjY2MDAiIHN0cm9rZS13aWR0aD0iNiIvPgogICAgPGxpbmUgeDE9IjI3MCIgeTE9IjEzNCIgeDI9IjMzMCIgeTI9IjEzNCIgc3Ryb2tlPSIjZmY2NjAwIiBzdHJva2Utd2lkdGg9IjUiLz4KICAgIDxsaW5lIHgxPSIyNzAiIHkxPSIxNTQiIHgyPSIzMzAiIHkyPSIxNTQiIHN0cm9rZT0iI2ZmNjYwMCIgc3Ryb2tlLXdpZHRoPSI1Ii8+CiAgICA8bGluZSB4MT0iMjcwIiB5MT0iMTc0IiB4Mj0iMzEwIiB5Mj0iMTc0IiBzdHJva2U9IiNmZjY2MDAiIHN0cm9rZS13aWR0aD0iNSIvPgogICAgPHRleHQgeD0iMzAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJNb250c2VycmF0LCBzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iOTAwIiBmb250LXNpemU9IjE4IiBmaWxsPSIjZmZmZmZmIiBsZXR0ZXItc3BhY2luZz0iMiI+QkFVUExBTiBQREY8L3RleHQ+CiAgPC9zdmc+" alt="Vorschau: hdw-titel12" class="w-full h-full object-cover">
         </div>
@@ -260,31 +278,31 @@
       </div>
 
       <div class="section-card accent-border">
-        <h2 class="text-lg mb-4">Current Deals</h2>
+        <h2 class="section-title mb-4">Current Deals</h2>
         
         <div class="mb-8 last:mb-0">
-          <div class="relative w-full h-40 bg-slate-800 rounded-lg overflow-hidden border border-white/10">
-            <img src="https://www.bosch-professional.com/de/media/professional_bi/service_relaunch/landingpages/pro_deals_1_2021/pro-deals_2021-t1_search-200x200px.jpg" alt="PRO Deals" class="w-full h-full object-cover grayscale-[30%] hover:grayscale-0 transition-all duration-500">
+          <div class="relative w-full h-40 bg-slate-800 rounded-lg overflow-hidden border border-white/10" style="background-image:url('https://www.bosch-professional.com/de/media/professional_bi/service_relaunch/landingpages/pro_deals_1_2021/pro-deals_2021-t1_search-200x200px.jpg');background-size:cover;background-position:center;">
+            <img src="https://www.bosch-professional.com/de/media/professional_bi/service_relaunch/landingpages/pro_deals_1_2021/pro-deals_2021-t1_search-200x200px.jpg" alt="BOSCH PRO Deals" class="w-full h-full object-cover grayscale-[30%] hover:grayscale-0 transition-all duration-500">
           </div>
-          <h4 class="mt-3 text-lg font-black uppercase tracking-tight">PRO Deals</h4>
+          <h4 class="mt-3 text-lg font-black uppercase tracking-tight"><strong style="font-weight:900;color:var(--hdw-orange);">BOSCH</strong> PRO Deals</h4>
           <a href="https://www.bosch-professional.com/de/de/pro360/prodeals/" target="_blank" rel="noopener sponsored" class="inline-block mt-2 bg-[#ff6600] hover:bg-orange-500 text-white font-black py-3 px-6 rounded uppercase text-xs transition-colors">ZU DEN DEALS</a>
         </div>
         <div class="mb-8 last:mb-0">
           <div class="relative w-full h-40 bg-slate-800 rounded-lg overflow-hidden border border-white/10">
             <div class="w-full h-full flex items-center justify-center text-slate-600 text-xs uppercase">Keine Vorschau</div>
           </div>
-          <h4 class="mt-3 text-lg font-black uppercase tracking-tight">DEWALT ALLES MACHEN 2026</h4>
+          <h4 class="mt-3 text-lg font-black uppercase tracking-tight"><strong style="font-weight:900;color:var(--hdw-orange);">DEWALT</strong> ALLES MACHEN 2026</h4>
           <a href="https://www.dewalt.eu/de/allesmachen" target="_blank" rel="noopener sponsored" class="inline-block mt-2 bg-[#ff6600] hover:bg-orange-500 text-white font-black py-3 px-6 rounded uppercase text-xs transition-colors">ZU DEN DEALS</a>
         </div>
         <div class="mb-8 last:mb-0">
           <div class="relative w-full h-40 bg-slate-800 rounded-lg overflow-hidden border border-white/10">
             <div class="w-full h-full flex items-center justify-center text-slate-600 text-xs uppercase">Keine Vorschau</div>
           </div>
-          <h4 class="mt-3 text-lg font-black uppercase tracking-tight">Metabo 18-V Aktion 2026</h4>
+          <h4 class="mt-3 text-lg font-black uppercase tracking-tight">metabo.com</h4>
           <a href="https://www.metabo.com/de/de/aktionen/2026/18-v-akku-aktion" target="_blank" rel="noopener sponsored" class="inline-block mt-2 bg-[#ff6600] hover:bg-orange-500 text-white font-black py-3 px-6 rounded uppercase text-xs transition-colors">ZU DEN DEALS</a>
         </div>
         <div class="mb-8 last:mb-0">
-          <div class="relative w-full h-40 bg-slate-800 rounded-lg overflow-hidden border border-white/10">
+          <div class="relative w-full h-40 bg-slate-800 rounded-lg overflow-hidden border border-white/10" style="background-image:url('http://www.presch-tools.com/cdn/shop/files/weck-den-handwerker_2000x_b12e1aa0-27b8-4f26-b215-a9aa7ee1e441.jpg?v=1710421917&amp;width=2048');background-size:cover;background-position:center;">
             <img src="http://www.presch-tools.com/cdn/shop/files/weck-den-handwerker_2000x_b12e1aa0-27b8-4f26-b215-a9aa7ee1e441.jpg?v=1710421917&amp;width=2048" alt="PRESCH Rabattcode - Jetzt 10 sparen" class="w-full h-full object-cover grayscale-[30%] hover:grayscale-0 transition-all duration-500">
           </div>
           <h4 class="mt-3 text-lg font-black uppercase tracking-tight">PRESCH Rabattcode - Jetzt 10 sparen</h4>
@@ -293,22 +311,22 @@
       </div>
 
       <div class="section-card accent-border">
-        <h2 class="text-lg mb-4">Zuschauer-FAQ</h2>
+        <h2 class="section-title mb-4">Zuschauer-FAQ</h2>
         
-        <div class="flex flex-row items-center gap-4 mb-8 last:mb-0">
+        <div class="flex flex-row items-stretch gap-4 mb-8 last:mb-0">
           <div class="w-1/2 aspect-[9/16] rounded-lg overflow-hidden border border-white/10 bg-black flex-shrink-0">
             <iframe src="https://www.youtube.com/embed/4fU0hFJfUeM" title="Bosch Contractor jetzt endlich mit NOCH MEHR Schubladen 🧰" class="w-full h-full" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
-          <div class="w-1/2">
-            <p class="text-lg font-black text-white leading-tight" style="font-weight: 900;">Bosch Contractor jetzt endlich mit NOCH MEHR Schubladen 🧰</p>
+          <div class="w-1/2 flex items-center justify-center">
+            <p class="faq-title">Bosch Contractor jetzt endlich mit NOCH MEHR Schubladen 🧰</p>
           </div>
         </div>
-        <div class="flex flex-row items-center gap-4 mb-8 last:mb-0">
+        <div class="flex flex-row items-stretch gap-4 mb-8 last:mb-0">
           <div class="w-1/2 aspect-[9/16] rounded-lg overflow-hidden border border-white/10 bg-black flex-shrink-0">
             <iframe src="https://www.youtube.com/embed/DaPrKM_zqYQ" title="Der beste 4 kg Bohrhammer den Bosch je rausgebracht hat? 🔧" class="w-full h-full" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
-          <div class="w-1/2">
-            <p class="text-lg font-black text-white leading-tight" style="font-weight: 900;">Der beste 4 kg Bohrhammer den Bosch je rausgebracht hat? 🔧</p>
+          <div class="w-1/2 flex items-center justify-center">
+            <p class="faq-title">Der beste 4 kg Bohrhammer den Bosch je rausgebracht hat? 🔧</p>
           </div>
         </div>
       </div>
