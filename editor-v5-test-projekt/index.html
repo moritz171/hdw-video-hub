@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editor V5 Test Projekt | Helden der Werkstatt</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap');
+    :root {
+      --hdw-orange: #ff6600;
+      --hdw-dark: #0c141e;
+      --hdw-surface: #141c27;
+    }
+    body { font-family: 'Montserrat', sans-serif; background-color: var(--hdw-dark); color: white; }
+    .accent-border { border-left: 4px solid var(--hdw-orange); }
+    h2 { font-weight: 900; letter-spacing: -0.025em; text-transform: uppercase; }
+    /* Sektions-Überschriften: das dominanteste Text-Element jeder Karte */
+    .section-title {
+      font-size: clamp(1.75rem, 5vw, 2.25rem);
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+    }
+    .section-card { background: var(--hdw-surface); padding: 1.5rem; border-radius: 0.5rem; border: 1px solid rgba(255,102,0,0.1); }
+    /* FAQ: YouTube-Titel neben dem Shorts-iFrame - groß, 900, zentriert */
+    .faq-title {
+      font-size: clamp(1.25rem, 4vw, 1.75rem);
+      font-weight: 900;
+      color: white;
+      line-height: 1.25;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: -0.01em;
+    }
+  </style>
+</head>
+<body class="p-4 md:p-8">
+  <div class="max-w-xl mx-auto">
+
+    <header class="flex items-center gap-4 mb-8">
+      <div class="bg-[#ff6600] p-2 rounded text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg>
+      </div>
+      <div>
+        <h1 class="text-2xl font-black uppercase tracking-tighter">Editor V5 Test Projekt</h1>
+        <p class="text-xs text-slate-400 font-medium uppercase">HELDEN DER WERKSTATT • Bauprojekt</p>
+      </div>
+    </header>
+
+    <div class="space-y-6">
+
+      <div class="section-card accent-border">
+        <h2 class="section-title mb-4">Wichtiges Zubehör</h2>
+        
+        <div class="flex flex-row items-center justify-between gap-4 py-4 border-b border-white/10 last:border-0">
+          <div class="flex-1 w-2/3">
+            <span class="text-sm font-bold text-white line-clamp-2 leading-tight uppercase">Bosch Heimwerken &amp; Garten</span>
+          </div>
+          <div class="w-32 flex-shrink-0">
+            <a href="https://www.bosch-do-it.de" target="_blank" rel="noopener sponsored" class="block w-full bg-[#ff6600] hover:bg-orange-500 text-white text-[10px] font-black py-2 px-3 rounded text-center leading-[1.1] uppercase transition-colors">
+              ZUM<br>ARTIKEL
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-card accent-border">
+        <h2 class="section-title mb-4">Wichtiges Werkzeug</h2>
+        <p class="text-slate-500 text-sm italic">Kein Werkzeug hinterlegt.</p>
+      </div>
+
+      <div class="section-card accent-border">
+        <h2 class="section-title mb-4">Anleitung</h2>
+        <div class="w-full h-40 mb-4 rounded-lg overflow-hidden border border-white/10 bg-slate-800">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iMzM4IiB2aWV3Qm94PSIwIDAgNjAwIDMzOCI+CiAgICA8cmVjdCB3aWR0aD0iNjAwIiBoZWlnaHQ9IjMzOCIgZmlsbD0iIzE0MWMyNyIvPgogICAgPHJlY3QgeD0iMjU1IiB5PSIxMDQiIHdpZHRoPSI5MCIgaGVpZ2h0PSIxMTAiIHJ4PSI2IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjY2MDAiIHN0cm9rZS13aWR0aD0iNiIvPgogICAgPGxpbmUgeDE9IjI3MCIgeTE9IjEzNCIgeDI9IjMzMCIgeTI9IjEzNCIgc3Ryb2tlPSIjZmY2NjAwIiBzdHJva2Utd2lkdGg9IjUiLz4KICAgIDxsaW5lIHgxPSIyNzAiIHkxPSIxNTQiIHgyPSIzMzAiIHkyPSIxNTQiIHN0cm9rZT0iI2ZmNjYwMCIgc3Ryb2tlLXdpZHRoPSI1Ii8+CiAgICA8bGluZSB4MT0iMjcwIiB5MT0iMTc0IiB4Mj0iMzEwIiB5Mj0iMTc0IiBzdHJva2U9IiNmZjY2MDAiIHN0cm9rZS13aWR0aD0iNSIvPgogICAgPHRleHQgeD0iMzAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJNb250c2VycmF0LCBzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iOTAwIiBmb250LXNpemU9IjE4IiBmaWxsPSIjZmZmZmZmIiBsZXR0ZXItc3BhY2luZz0iMiI+QkFVUExBTiBQREY8L3RleHQ+CiAgPC9zdmc+" alt="Vorschau: Editor V5 Test Projekt" class="w-full h-full object-cover">
+        </div>
+        <a href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" target="_blank" rel="noopener" class="block w-full bg-[#ff6600] text-white font-black py-4 px-6 rounded uppercase text-center shadow-lg hover:bg-orange-500 transition-colors">
+          BAUPLAN DOWNLOADEN
+        </a>
+      </div>
+
+      <div class="section-card accent-border">
+        <h2 class="section-title mb-4">Current Deals</h2>
+        
+        <div class="mb-8 last:mb-0">
+          <div class="relative w-full h-40 bg-slate-800 rounded-lg overflow-hidden border border-white/10" style="background-image:url('https://www.bosch-diy.com/images/bosch-diy-icon-ios--abfad2a3d83443d4a6a6cc6d0584cb9c.png');background-size:cover;background-position:center;">
+            <img src="https://www.bosch-diy.com/images/bosch-diy-icon-ios--abfad2a3d83443d4a6a6cc6d0584cb9c.png" alt="Bosch Heimwerken &amp; Garten" class="w-full h-full object-cover grayscale-[30%] hover:grayscale-0 transition-all duration-500">
+          </div>
+          <h4 class="mt-3 text-lg font-black uppercase tracking-tight"><strong style="font-weight:900;color:var(--hdw-orange);">BOSCH</strong> Heimwerken &amp; Garten</h4>
+          <a href="https://www.bosch-do-it.de" target="_blank" rel="noopener sponsored" class="inline-block mt-2 bg-[#ff6600] hover:bg-orange-500 text-white font-black py-3 px-6 rounded uppercase text-xs transition-colors">ZU DEN DEALS</a>
+        </div>
+      </div>
+
+      <div class="section-card accent-border">
+        <h2 class="section-title mb-4">Zuschauer-FAQ</h2>
+        
+        <div class="flex flex-row items-stretch gap-4 mb-8 last:mb-0">
+          <div class="w-1/2 aspect-[9/16] rounded-lg overflow-hidden border border-white/10 bg-black flex-shrink-0">
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Rick Astley - Never Gonna Give You Up" class="w-full h-full" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="w-1/2 flex items-center justify-center">
+            <p class="faq-title">Rick Astley - Never Gonna Give You Up</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="mt-10 text-center text-[10px] text-slate-500 uppercase tracking-wider">
+      * Affiliate-Links: Als Amazon-Partner verdienen wir an qualifizierten Käufen.
+    </footer>
+
+  </div>
+</body>
+</html>
