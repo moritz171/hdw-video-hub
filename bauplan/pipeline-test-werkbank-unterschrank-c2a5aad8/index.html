@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pipeline-Test Werkbank-Unterschrank | HDW Bauplan</title>
+<meta name="description" content="Testseite der HDW Publishing-Pipeline: Unterschrank aus 18mm Multiplex mit einem Einlegeboden.">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Hanken+Grotesk:wght@400;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root { --orange: #E65C00; --ink: #dbe3f2; --muted: #8a97ab; --panel: #18202b; --panel-hi: #232b36; --line: rgba(255,255,255,0.08); }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: #000 radial-gradient(circle at 50% 0%, #0c141e 0%, #000 70%); color: var(--ink); font: 16px/1.5 'Hanken Grotesk', sans-serif; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 48px 16px 96px; }
+  header.hero { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+  .bar { width: 8px; height: 34px; background: var(--orange); }
+  h1 { font: 900 clamp(26px, 4.5vw, 44px)/1.1 Montserrat, sans-serif; text-transform: uppercase; letter-spacing: -0.02em; }
+  .brand { font: 700 12px/1 'JetBrains Mono', monospace; letter-spacing: 0.15em; color: var(--orange); background: rgba(230,92,0,0.1); padding: 6px 10px; display: inline-block; margin-bottom: 24px; }
+  .summary { color: var(--muted); max-width: 760px; margin-bottom: 32px; font-size: 18px; }
+  .meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 8px; margin-bottom: 32px; }
+  .meta div { border: 1px solid var(--line); padding: 14px; background: var(--panel); }
+  .meta .label { font: 700 10px/1 'JetBrains Mono', monospace; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase; }
+  .meta .value { font: 800 20px/1.3 Montserrat, sans-serif; margin-top: 6px; }
+  .drawing { border: 1px solid #2C3746; background: #000; margin-bottom: 48px; }
+  .drawing svg { display: block; width: 100%; height: auto; }
+  h2 { font: 700 13px/1 'JetBrains Mono', monospace; letter-spacing: 0.12em; text-transform: uppercase; color: var(--orange); margin: 40px 0 16px; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  thead th { text-align: left; font: 700 11px/1 'JetBrains Mono', monospace; letter-spacing: 0.08em; text-transform: uppercase; background: var(--panel-hi); padding: 10px 12px; }
+  tbody td { padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  td.num, th.num { text-align: right; font-family: 'JetBrains Mono', monospace; font-size: 13px; }
+  .muted { color: var(--muted); }
+  .small { font-size: 13px; }
+  ul.list { list-style: none; padding: 0; display: grid; gap: 6px; font-size: 15px; }
+  .tick { color: var(--orange); margin-right: 6px; }
+  ol.steps { list-style: none; padding: 0; display: grid; gap: 20px; }
+  ol.steps li { display: flex; gap: 14px; }
+  .step-num { flex: 0 0 auto; width: 32px; height: 32px; background: #fff; color: #000; font: 900 16px/32px Montserrat, sans-serif; text-align: center; }
+  .step-title { font-weight: 700; }
+  .step-text { color: var(--muted); margin-top: 4px; }
+  .warning { margin-top: 10px; border-left: 3px solid var(--orange); background: rgba(230,92,0,0.08); color: #ffb98a; padding: 10px 14px; font-size: 14px; }
+  .safety { border: 1px solid rgba(230,92,0,0.35); background: rgba(230,92,0,0.06); padding: 20px; margin-top: 40px; }
+  .safety ul { margin-top: 10px; padding-left: 20px; color: var(--muted); display: grid; gap: 6px; }
+  footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--line); font: 500 11px/1.6 'JetBrains Mono', monospace; color: var(--muted); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="brand">HELDEN DER WERKSTATT · BAUPLAN</span>
+  <header class="hero">
+    <div class="bar"></div>
+    <h1>Pipeline-Test Werkbank-Unterschrank</h1>
+  </header>
+  <p class="summary">Testseite der HDW Publishing-Pipeline: Unterschrank aus 18mm Multiplex mit einem Einlegeboden.</p>
+
+  <div class="meta">
+    <div><span class="label">Abmessungen (H×B×T)</span><p class="value">1200 × 800 × 600 mm</p></div>
+    <div><span class="label">Schwierigkeit</span><p class="value">ANFÄNGER</p></div>
+    <div><span class="label">Arbeitszeit (ca.)</span><p class="value">4 h</p></div>
+    <div><span class="label">Bauteile</span><p class="value">3</p></div>
+  </div>
+
+  <div class="drawing"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 620" role="img" aria-label="Technische Zeichnung"><defs><pattern id="hdw-grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="#000000"/><rect width="100%" height="100%" fill="url(#hdw-grid)"/><rect x="259.33333333333337" y="64" width="181.33333333333331" height="272" fill="none" stroke="#dbe3f2" stroke-width="1.5"/><rect x="263.41333333333336" y="68.08" width="173.17333333333332" height="263.84" fill="none" stroke="#6b7c93" stroke-width="0.75" stroke-dasharray="4 4"/><line x1="350" y1="56" x2="350" y2="344" stroke="rgba(255,255,255,0.14)" stroke-width="0.75" stroke-dasharray="10 4 2 4"/><line x1="251.33333333333337" y1="200" x2="448.6666666666667" y2="200" stroke="rgba(255,255,255,0.14)" stroke-width="0.75" stroke-dasharray="10 4 2 4"/><text x="350" y="358" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="11" fill="#6b7c93" text-anchor="middle" letter-spacing="0.05em">VORDERANSICHT</text><rect x="524.6666666666667" y="64" width="136" height="272" fill="none" stroke="#dbe3f2" stroke-width="1.5"/><rect x="528.7466666666668" y="68.08" width="127.84" height="263.84" fill="none" stroke="#6b7c93" stroke-width="0.75" stroke-dasharray="4 4"/><line x1="592.6666666666667" y1="56" x2="592.6666666666667" y2="344" stroke="rgba(255,255,255,0.14)" stroke-width="0.75" stroke-dasharray="10 4 2 4"/><line x1="516.6666666666667" y1="200" x2="668.6666666666667" y2="200" stroke="rgba(255,255,255,0.14)" stroke-width="0.75" stroke-dasharray="10 4 2 4"/><text x="592.6666666666667" y="358" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="11" fill="#6b7c93" text-anchor="middle" letter-spacing="0.05em">SEITENANSICHT</text><rect x="259.33333333333337" y="420" width="181.33333333333331" height="136" fill="none" stroke="#dbe3f2" stroke-width="1.5"/><rect x="263.41333333333336" y="424.08" width="173.17333333333332" height="127.84" fill="none" stroke="#6b7c93" stroke-width="0.75" stroke-dasharray="4 4"/><line x1="350" y1="412" x2="350" y2="564" stroke="rgba(255,255,255,0.14)" stroke-width="0.75" stroke-dasharray="10 4 2 4"/><line x1="251.33333333333337" y1="488" x2="448.6666666666667" y2="488" stroke="rgba(255,255,255,0.14)" stroke-width="0.75" stroke-dasharray="10 4 2 4"/><text x="350" y="578" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="11" fill="#6b7c93" text-anchor="middle" letter-spacing="0.05em">DRAUFSICHT</text><line x1="263.41333333333336" y1="197.96" x2="436.5866666666667" y2="197.96" stroke="#6b7c93" stroke-width="1"/><line x1="263.41333333333336" y1="202.04" x2="436.5866666666667" y2="202.04" stroke="#6b7c93" stroke-width="1"/><line x1="528.7466666666668" y1="197.96" x2="656.5866666666667" y2="197.96" stroke="#6b7c93" stroke-width="1"/><line x1="528.7466666666668" y1="202.04" x2="656.5866666666667" y2="202.04" stroke="#6b7c93" stroke-width="1"/><line x1="231.33333333333337" y1="64" x2="231.33333333333337" y2="336" stroke="#E65C00" stroke-width="1"/><line x1="226.33333333333337" y1="64" x2="236.33333333333337" y2="64" stroke="#E65C00" stroke-width="1"/><line x1="226.33333333333337" y1="336" x2="236.33333333333337" y2="336" stroke="#E65C00" stroke-width="1"/><text x="223.33333333333337" y="204" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="12" fill="#E65C00" text-anchor="end" letter-spacing="0.05em">1200</text><line x1="259.33333333333337" y1="376" x2="440.6666666666667" y2="376" stroke="#E65C00" stroke-width="1"/><line x1="259.33333333333337" y1="371" x2="259.33333333333337" y2="381" stroke="#E65C00" stroke-width="1"/><line x1="440.6666666666667" y1="371" x2="440.6666666666667" y2="381" stroke="#E65C00" stroke-width="1"/><text x="350" y="392" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="12" fill="#E65C00" text-anchor="middle" letter-spacing="0.05em">800</text><line x1="524.6666666666667" y1="376" x2="660.6666666666667" y2="376" stroke="#E65C00" stroke-width="1"/><line x1="524.6666666666667" y1="371" x2="524.6666666666667" y2="381" stroke="#E65C00" stroke-width="1"/><line x1="660.6666666666667" y1="371" x2="660.6666666666667" y2="381" stroke="#E65C00" stroke-width="1"/><text x="592.6666666666667" y="392" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="12" fill="#E65C00" text-anchor="middle" letter-spacing="0.05em">600</text><rect x="604" y="526" width="300" height="78" fill="none" stroke="#dbe3f2" stroke-width="1"/><line x1="604" y1="552" x2="904" y2="552" stroke="#6b7c93" stroke-width="0.75"/><text x="614" y="544" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="11" fill="#dbe3f2" text-anchor="start" letter-spacing="0.05em">PIPELINE-TEST WERKBANK-UNTERSCHRANK</text><text x="614" y="570" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#6b7c93" text-anchor="start" letter-spacing="0.05em">H 1200 × B 800 × T 600 mm</text><text x="614" y="588" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#6b7c93" text-anchor="start" letter-spacing="0.05em">MASSSTAB ~1:4 · ALLE ANGABEN IN MM</text><text x="894" y="544" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="11" fill="#E65C00" text-anchor="end" letter-spacing="0.05em">HDW</text></svg></div>
+
+  <h2>▪ Schnittliste</h2>
+  <table>
+    <thead><tr><th>Bauteil</th><th>Material</th><th class="num">L × B × S (mm)</th><th class="num">Stk</th></tr></thead>
+    <tbody>
+<tr>
+        <td>Seitenwand</td>
+        <td class="muted">Birke Multiplex</td>
+        <td class="num">1164 × 600 × 18</td>
+        <td class="num">2×</td>
+      </tr>
+<tr>
+        <td>Boden/Deckel<span class="muted"> — Kanten umleimen</span></td>
+        <td class="muted">Birke Multiplex</td>
+        <td class="num">800 × 600 × 18</td>
+        <td class="num">2×</td>
+      </tr>
+<tr>
+        <td>Einlegeboden</td>
+        <td class="muted">Birke Multiplex</td>
+        <td class="num">764 × 560 × 18</td>
+        <td class="num">1×</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>▪ Beschläge &amp; Verbinder</h2>
+  <ul class="list">
+<li><span class="tick">■</span> 24× Spax Universalschraube — <span class="muted">4x50 mm, Senkkopf, T20</span></li>
+  </ul>
+
+  <h2>▪ Werkzeugliste</h2>
+  <ul class="list">
+<li><span class="tick">■</span> Tauchsäge mit Führungsschiene — <span class="muted">Plattenzuschnitt</span></li>
+<li><span class="tick">■</span> Akkuschrauber — <span class="muted">Vorbohren und Verschrauben</span></li>
+  </ul>
+
+  <h2>▪ Arbeitsschritte</h2>
+  <ol class="steps">
+<li>
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <p class="step-title">Zuschnitt <span class="muted small">· ca. 1 h</span></p>
+          <p class="step-text">Alle Teile laut Schnittliste sägen.</p>
+          <p class="warning">⚠ Schutzbrille tragen.</p>
+        </div>
+      </li>
+<li>
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <p class="step-title">Montage <span class="muted small">· ca. 2 h</span></p>
+          <p class="step-text">Korpus rechtwinklig verschrauben.</p>
+          
+        </div>
+      </li>
+  </ol>
+
+  <div class="safety"><h2 style="margin:0">! Sicherheitshinweise</h2><ul>
+<li>Gehörschutz beim Sägen tragen.</li>
+</ul></div>
+
+  <footer>
+    <span>© HELDEN DER WERKSTATT — GENERIERT MIT DEM HDW BAUPLAN-GENERATOR</span>
+    <span>ALLE ANGABEN IN MM · OHNE GEWÄHR</span>
+  </footer>
+</div>
+</body>
+</html>
