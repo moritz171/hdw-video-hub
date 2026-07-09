@@ -3,11 +3,167 @@
   "title": "astlöcher mit Zinn",
   "type": "Bauprojekt",
   "hasManual": true,
-  "pdfUrl": "",
-  "zubehoer": [],
-  "werkzeug": [],
-  "deals": [],
-  "faq": [],
+  "pdfUrl": "https://heldenderwerkstatt.de/wp-content/uploads/2023/05/Plan_1H-Werkbank.pdf",
+  "zubehoer": [
+    {
+      "url": "https://amzn.to/3ZQH4Iq",
+      "title": "Stanley Schreinerwinkel (gerippter Aluminiumgriff, Edelstahlblatt, 45° Winkel) 1-45-687, 200 x 400 mm",
+      "image": "",
+      "resolved": true
+    },
+    {
+      "url": "https://amzn.to/4uKIRNr",
+      "title": "Rollei Smoke Master - Mobile akkubetriebene Nebelmaschine für vielseitige Atmosphäre und Coole Effekte in Foto- und Videografie",
+      "image": "",
+      "resolved": true
+    },
+    {
+      "url": "https://amzn.to/4slCaPn",
+      "title": "Alu-Verkauf Aluprofil 40x40mm Nut 8-6x Aluminium Profil 2000mm - Maße & Stückzahlen wählbar - T-Nut Schiene - Systemprofil aus Aluminium für",
+      "image": "",
+      "resolved": true
+    },
+    {
+      "url": "https://amzn.to/3Q2PdYD",
+      "title": "Fullerkreg - 8 x Winkel 20 x 20 Nut 6 mit Befestigung",
+      "image": "",
+      "resolved": true
+    },
+    {
+      "url": "https://amzn.to/4cmiCob",
+      "title": "KINETOX 32 Stück Nutensteine M6 Set T-Nut M6 T-Slot Nutmuttern Schrauben 3030 Serie Schiebemuttern M6 T Nut Schiene für Aluminiumprofil Extr",
+      "image": "",
+      "resolved": true
+    },
+    {
+      "url": "https://amzn.to/3OsPOSW",
+      "title": "Caianwin M8 x 16mm 20Pcs Linsenkopfschrauben Innensechskant 304 Edelstahl Flachrundkopfschrauben für den Möbeleinbau,Industriebereiche",
+      "image": "",
+      "resolved": true
+    },
+    {
+      "url": "https://amzn.to/3O9NjVA",
+      "title": "4 Stück Aluprofil 40x40 L Verbinder Aluprofil Aluminium Profil Aluprofil Verbinder Mit Mutter und Schraube für 10 mm Geschlitzte Aluminiumpr",
+      "image": "",
+      "resolved": true
+    },
+    {
+      "url": "https://amzn.to/4c38nWR",
+      "title": "10 X Eckwinkel Winkel Befestigung Befestigungsmaterial für 4040 4080 Nut 8 Raster Streben Aluprofil L-Form Europäische Standard Aluprofil Zu",
+      "image": "",
+      "resolved": true
+    },
+    {
+      "url": "https://amzn.to/3QvKGhn",
+      "title": "Topnorm24 - Senkschrauben Edelstahl M8x25 mm - 25 Stück mit Innensechskant DIN 7991 V2A A2 VA Schrauben metrisches Vollgewinde für Muttern u",
+      "image": "",
+      "resolved": true
+    },
+    {
+      "url": "https://amzn.to/4nunk8p",
+      "title": "Remmers Wohnraum-Lasur eiche, 0,75 Liter, Holzlasur innen, für Möbel, Böden, Innentüren, Treppen und Feuchtraum geeignet, gute Wasserfestigk",
+      "image": "",
+      "resolved": true
+    }
+  ],
+  "werkzeug": [
+    {
+      "url": "https://amzn.to/3ZQH4Iq",
+      "title": "Stanley Schreinerwinkel (gerippter Aluminiumgriff, Edelstahlblatt, 45° Winkel) 1-45-687, 200 x 400 mm",
+      "image": "",
+      "resolved": true
+    },
+    {
+      "url": "https://amzn.to/4uKIRNr",
+      "title": "Rollei Smoke Master - Mobile akkubetriebene Nebelmaschine für vielseitige Atmosphäre und Coole Effekte in Foto- und Videografie",
+      "image": "",
+      "resolved": true
+    },
+    {
+      "url": "https://amzn.to/4slCaPn",
+      "title": "Alu-Verkauf Aluprofil 40x40mm Nut 8-6x Aluminium Profil 2000mm - Maße & Stückzahlen wählbar - T-Nut Schiene - Systemprofil aus Aluminium für",
+      "image": "",
+      "resolved": true
+    },
+    {
+      "url": "https://amzn.to/3Q2PdYD",
+      "title": "Fullerkreg - 8 x Winkel 20 x 20 Nut 6 mit Befestigung",
+      "image": "",
+      "resolved": true
+    },
+    {
+      "url": "https://amzn.to/4cmiCob",
+      "title": "KINETOX 32 Stück Nutensteine M6 Set T-Nut M6 T-Slot Nutmuttern Schrauben 3030 Serie Schiebemuttern M6 T Nut Schiene für Aluminiumprofil Extr",
+      "image": "",
+      "resolved": true
+    },
+    {
+      "url": "https://amzn.to/3OsPOSW",
+      "title": "Caianwin M8 x 16mm 20Pcs Linsenkopfschrauben Innensechskant 304 Edelstahl Flachrundkopfschrauben für den Möbeleinbau,Industriebereiche",
+      "image": "",
+      "resolved": true
+    },
+    {
+      "url": "https://amzn.to/3O9NjVA",
+      "title": "4 Stück Aluprofil 40x40 L Verbinder Aluprofil Aluminium Profil Aluprofil Verbinder Mit Mutter und Schraube für 10 mm Geschlitzte Aluminiumpr",
+      "image": "",
+      "resolved": true
+    },
+    {
+      "url": "https://amzn.to/4c38nWR",
+      "title": "10 X Eckwinkel Winkel Befestigung Befestigungsmaterial für 4040 4080 Nut 8 Raster Streben Aluprofil L-Form Europäische Standard Aluprofil Zu",
+      "image": "",
+      "resolved": true
+    },
+    {
+      "url": "https://amzn.to/3QvKGhn",
+      "title": "Topnorm24 - Senkschrauben Edelstahl M8x25 mm - 25 Stück mit Innensechskant DIN 7991 V2A A2 VA Schrauben metrisches Vollgewinde für Muttern u",
+      "image": "",
+      "resolved": true
+    },
+    {
+      "url": "https://amzn.to/4nunk8p",
+      "title": "Remmers Wohnraum-Lasur eiche, 0,75 Liter, Holzlasur innen, für Möbel, Böden, Innentüren, Treppen und Feuchtraum geeignet, gute Wasserfestigk",
+      "image": "",
+      "resolved": true
+    }
+  ],
+  "deals": [
+    {
+      "image": "https://www.bosch-professional.com/media/professional_bi/service_relaunch/landingpages/pro_deals_t2_2026/dispatcher_9/new_deals/gt_1/gt_deal_360x203_webp.webp",
+      "title": "Bosch Kostenloser Akku",
+      "url": "https://www.bosch-professional.com/de/de/pro360/prodeals/"
+    },
+    {
+      "image": "https://www.dewalt.eu/specialredemptions/galp_alles_2026/images/banner-de.jpg",
+      "title": "Dewalt Alles Gratis Akku",
+      "url": "https://www.dewalt.eu/de/allesmachen"
+    },
+    {
+      "image": "https://media.lefeld.de/Artikelbilder/webP800/625369000_01_sth_07022023.jpg",
+      "title": "Metabo 18V Aktion Gratis Akku",
+      "url": "https://www.metabo.com/de/de/aktionen/2026/18-v-akku-aktion"
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTanRnz0AcdsoLee93MwFvP43fnHX50RaPI9aULd4YgjI6Xa_Q1f8IKkvc&s=10",
+      "title": "Presch Rabattcode -10%",
+      "url": "https://www.presch-tools.com/pages/presch-rabattcode?srsltid=AfmBOoqKDIHyZbh6hSIBPnSxjgqj5eKjtnUeFvdTv82TXER3QLscv1tA"
+    }
+  ],
+  "faq": [
+    {
+      "url": "https://www.youtube.com/shorts/4fU0hFJfUeM",
+      "title": "Bosch Contractor jetzt endlich mit NOCH MEHR Schubladen 🧰",
+      "image": "https://i.ytimg.com/vi/4fU0hFJfUeM/hq2.jpg",
+      "resolved": true
+    },
+    {
+      "url": "https://www.youtube.com/shorts/DaPrKM_zqYQ",
+      "title": "Der beste 4 kg Bohrhammer den Bosch je rausgebracht hat? 🔧",
+      "image": "https://i.ytimg.com/vi/DaPrKM_zqYQ/hq2.jpg",
+      "resolved": true
+    }
+  ],
   "createdAt": "2026-07-09T11:27:07.210Z",
-  "updatedAt": "2026-07-09T11:27:07.210Z"
+  "updatedAt": "2026-07-09T11:32:16.166Z"
 }
