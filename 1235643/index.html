@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1235643 | Helden der Werkstatt</title>
+  <style>
+    :root {
+      --hdw-orange: #ff6600;
+      --hdw-bg: #0c141e;
+      --hdw-text: #dbe3f2;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background-color: var(--hdw-bg);
+      color: var(--hdw-text);
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      text-align: center;
+    }
+    .badge {
+      color: var(--hdw-orange);
+      font-weight: 900;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: clamp(28px, 6vw, 48px);
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: -0.02em;
+      max-width: 800px;
+      line-height: 1.1;
+    }
+    .divider { width: 80px; height: 4px; background: var(--hdw-orange); margin: 32px auto; }
+    p { opacity: 0.7; font-size: 18px; max-width: 600px; line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <div class="badge">Helden der Werkstatt</div>
+  <h1>1235643</h1>
+  <div class="divider"></div>
+  <p>Alle Materialien, Werkzeuge und Links zu diesem Video findest du in Kürze hier.</p>
+
+  <!-- ================================================================
+       HDW CONTENT-SLOTS
+       Diese Platzhalter werden von zukünftigen Tools per API befüllt.
+       Sie sind bewusst auskommentiert: unsichtbar für Besucher, aber
+       als eindeutige Text-Strings im Quellcode auffindbar.
+       ================================================================ -->
+  <!-- SLOT:VIDEO_LINK           {{VIDEO_LINK}} -->
+  <!-- SLOT:TEXT_BESCHREIBUNG    {{TEXT_BESCHREIBUNG}} -->
+  <!-- SLOT:AFFILIATE_LINKS      {{AFFILIATE_LINKS}} -->
+  <!-- SLOT:NUETZLICHES_ZUBEHOER {{NUETZLICHES_ZUBEHOER}} -->
+  <!-- SLOT:BAUPLAN_DOWNLOAD     {{BAUPLAN_DOWNLOAD}} -->
+  <!-- SLOT:DEALS                {{DEALS}} -->
+</body>
+</html>
