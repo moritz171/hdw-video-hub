@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>html,body{background:#0c141e;margin:0;min-height:100vh}</style></head><body>
+<script>
+(function () {
+  var isMobile = /Android|iPhone|iPad|iPod|Mobile|Windows Phone/i.test(navigator.userAgent) ||
+    window.matchMedia('(max-width: 767px)').matches;
+  var variant = isMobile ? 'mobile.html' : 'desktop.html';
+  fetch(variant, { credentials: 'same-origin' })
+    .then(function (r) { if (!r.ok) throw new Error('not found'); return r.text(); })
+    .then(function (html) { document.open(); document.write(html); document.close(); })
+    .catch(function () { location.replace(variant); });
+})();
+</script>
+</body></html>
