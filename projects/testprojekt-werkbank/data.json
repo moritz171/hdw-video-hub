@@ -3,11 +3,31 @@
   "title": "Testprojekt Werkbank",
   "type": "Bauprojekt",
   "hasManual": true,
-  "pdfUrl": "",
-  "zubehoer": [],
+  "pdfUrl": "https://example.com/bauplan.pdf",
+  "zubehoer": [
+    {
+      "url": "https://www.iana.org/help/example-domains",
+      "title": "Example Domains",
+      "image": "",
+      "resolved": true
+    }
+  ],
   "werkzeug": [],
-  "deals": [],
-  "faq": [],
+  "deals": [
+    {
+      "image": "",
+      "title": "Bosch Kappzugsäge -20%",
+      "url": "https://example.com/deal"
+    }
+  ],
+  "faq": [
+    {
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)",
+      "image": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+      "resolved": true
+    }
+  ],
   "createdAt": "2026-07-09T11:22:58.536Z",
-  "updatedAt": "2026-07-09T11:22:58.536Z"
+  "updatedAt": "2026-07-09T11:23:39.170Z"
 }
