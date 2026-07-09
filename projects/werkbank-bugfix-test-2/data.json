@@ -3,11 +3,38 @@
   "title": "Werkbank Bugfix Test 2",
   "type": "Bauprojekt",
   "hasManual": true,
-  "pdfUrl": "",
-  "zubehoer": [],
-  "werkzeug": [],
-  "deals": [],
-  "faq": [],
+  "pdfUrl": "https://example.com/bauplan-werkbank.pdf",
+  "zubehoer": [
+    {
+      "url": "https://www.iana.org/help/example-domains",
+      "title": "Example Domains",
+      "image": "",
+      "resolved": true
+    }
+  ],
+  "werkzeug": [
+    {
+      "url": "https://www.iana.org/domains/reserved",
+      "title": "IANA-managed Reserved Domains",
+      "image": "",
+      "resolved": true
+    }
+  ],
+  "deals": [
+    {
+      "image": "https://picsum.photos/400/300",
+      "title": "Bosch Aktion -20% Sonderpreis!!!",
+      "url": "https://example.com/deal-bosch"
+    }
+  ],
+  "faq": [
+    {
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)",
+      "image": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+      "resolved": true
+    }
+  ],
   "createdAt": "2026-07-09T11:56:27.862Z",
-  "updatedAt": "2026-07-09T11:56:27.862Z"
+  "updatedAt": "2026-07-09T11:56:53.041Z"
 }

@@ -101,16 +101,16 @@
 </div>
 <div class="hidden md:flex gap-6">
 <!-- Desktop nav elements mapped from bottom nav logic -->
-<a class="text-primary font-bold hover:text-caution-orange transition-colors duration-200" href="#">
+<a class="text-primary font-bold hover:text-caution-orange transition-colors duration-200" href="#werkzeuge">
 <span class="material-symbols-outlined align-middle mr-1" data-icon="construction">construction</span>WERKZEUGE
                  </a>
 <a class="text-on-surface-variant font-medium hover:text-caution-orange transition-colors duration-200" href="#plaene">
 <span class="material-symbols-outlined align-middle mr-1" data-icon="architecture">architecture</span>PLÄNE
                  </a>
-<a class="text-on-surface-variant font-medium hover:text-caution-orange transition-colors duration-200" href="#">
+<a class="text-on-surface-variant font-medium hover:text-caution-orange transition-colors duration-200" href="#deals">
 <span class="material-symbols-outlined align-middle mr-1" data-icon="local_offer">local_offer</span>DEALS
                  </a>
-<a class="text-on-surface-variant font-medium hover:text-caution-orange transition-colors duration-200" href="#">
+<a class="text-on-surface-variant font-medium hover:text-caution-orange transition-colors duration-200" href="#shorts">
 <span class="material-symbols-outlined align-middle mr-1" data-icon="play_circle">play_circle</span>SHORTS
                  </a>
 </div>
@@ -121,7 +121,17 @@
 </header>
 <main class="pt-24 px-margin-mobile md:px-margin-desktop max-w-max-width mx-auto flex flex-col gap-16 pb-12 px-[5%]">
 <!-- Block 1: Werkzeuge & Material (Tools List) -->
-
+<section class="scroll-mt-24" id="werkzeuge">
+<div class="mb-6 border-b border-glass-subtle pb-2">
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg-mobile md:font-headline-lg text-white uppercase tracking-tight flex items-center gap-3"><span class="material-symbols-outlined text-caution-orange" style="font-variation-settings: 'FILL' 1;">construction</span>WICHTIGES ZUBEHÖR</h2>
+</div>
+<div class="flex flex-col gap-3">
+<!-- INJECT_AFFILIATE -->
+<div class="flex justify-between items-center py-4 gap-4"><span class="text-body-lg font-bold text-white line-clamp-2 flex-1">Example Domains</span><a class="bg-primary-container text-deep-obsidian font-bold uppercase px-3 py-2 text-label-sm hover:bg-caution-orange transition-colors rounded-sm w-28 shrink-0 leading-tight" href="https://www.iana.org/help/example-domains" target="_blank" rel="noopener sponsored">ZUM<br>ARTIKEL</a></div></div>
+<div class="mt-8 mb-4 border-b border-white/10 pb-2"><h3 class="text-headline-md font-headline-md font-bold text-white uppercase tracking-tight">WICHTIGES WERKZEUG</h3></div><div class="flex flex-col gap-3"><div class="flex justify-between items-center py-4 gap-4"><span class="text-body-lg font-bold text-white line-clamp-2 flex-1">IANA managed Reserved Domains</span><a class="bg-primary-container text-deep-obsidian font-bold uppercase px-3 py-2 text-label-sm hover:bg-caution-orange transition-colors rounded-sm w-28 shrink-0 leading-tight" href="https://www.iana.org/domains/reserved" target="_blank" rel="noopener sponsored">ZUM<br>ARTIKEL</a></div></div><div class="mt-4 text-center">
+<button class="text-on-surface-variant font-label-sm uppercase hover:text-caution-orange transition-colors">MEHR</button>
+</div>
+</section>
 <!-- Block 2: Bauanleitung & Pläne (Plans) -->
 <section class="scroll-mt-24" id="plaene">
 <div class="mb-6 border-b border-glass-subtle pb-2">
@@ -133,12 +143,24 @@
 <div class="w-full bg-surface-container-lowest border border-glass-subtle rounded p-4">
 <!-- INJECT_BAUPLAN -->
 <img alt="Technical Drawing" class="w-full h-auto rounded shadow-sharp-40 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDmCB9Us0YSb2NsAAMPhLH9yxr67H-ePaGTODSnz8N8T3ofHDRl5svAwo5v69UIqyTq0cAwvhyWSAf49BURzmNaUqpFnqQeQxHTv3ct8-FytYQ2-49loK31YJ-H6ePBgzP-VlqcUf0aCI0uk3pV75n-fV60aCJJbQqIDV3PHQhaqV7h6E8N9z5DSNPvYO4vYSGJbZU73xl3XR2aXSttqHw1yEI-2jFAvil-G_iJnSvH5hmBd1lAmBW-NMJdQZZu5G7k1g">
-<a class="w-full mt-6 bg-caution-orange text-deep-obsidian font-headline-md text-label-bold uppercase py-4 hover:bg-primary-container transition-colors rounded-sm flex items-center justify-center gap-2 shadow-sharp-40" href="#" target="_blank" rel="noopener sponsored">DOWNLOAD</a></div>
+<a class="w-full mt-6 bg-caution-orange text-deep-obsidian font-headline-md text-label-bold uppercase py-4 hover:bg-primary-container transition-colors rounded-sm flex items-center justify-center gap-2 shadow-sharp-40" href="https://example.com/bauplan-werkbank.pdf" target="_blank" rel="noopener sponsored">DOWNLOAD</a></div>
 </section>
 <!-- Block 3: Aktuelle Deals -->
-
+<section class="scroll-mt-24" id="deals"><div class="mb-6 border-b border-glass-subtle pb-2"><h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg-mobile md:font-headline-lg text-white uppercase tracking-tight flex items-center gap-3"><span class="material-symbols-outlined text-caution-orange" style="font-variation-settings: 'FILL' 1;">local_offer</span>AKTUELLE DEALS</h2></div><div class="flex flex-col gap-6">
+<!-- INJECT_DEALS -->
+<div class="bg-surface-container-lowest border border-white/5 rounded p-4 flex flex-col gap-4"><div class="aspect-video w-full bg-surface-container-high rounded overflow-hidden"><img alt="Bosch Aktion -20% Sonderpreis!!!" class="w-full h-full object-cover" src="https://picsum.photos/400/300"></div><p class="text-body-lg font-bold text-white">Bosch Aktion -20% Sonderpreis!!!</p><a class="bg-caution-orange text-deep-obsidian font-label-bold uppercase py-2 rounded-sm hover:bg-primary-container transition-colors" href="https://example.com/deal-bosch" target="_blank" rel="noopener sponsored">ZU DEN DEALS</a></div></div></section>
 <!-- Block 4: Zuschauerfragen & FAQ (Shorts) -->
-
+<section class="scroll-mt-24 mb-12" id="shorts">
+<div class="mb-6 border-b border-glass-subtle pb-2">
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg-mobile md:font-headline-lg text-white uppercase tracking-tight flex items-center gap-3">
+<span class="material-symbols-outlined text-caution-orange" style="font-variation-settings: 'FILL' 1;">play_circle</span>
+                    Zuschauerfragen &amp; FAQ
+                </h2>
+</div>
+<div class="flex flex-col gap-12"><div class="flex flex-col gap-12">
+<!-- INJECT_FAQ -->
+<a class="flex flex-row items-center gap-6 cursor-pointer group" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener sponsored"><div class="w-1/2 aspect-video relative shrink-0 overflow-hidden rounded-xl shadow-sharp-40"><img alt="Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)" class="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform" src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg"><div class="absolute inset-0 flex items-center justify-center"><span class="material-symbols-outlined text-primary-container text-5xl drop-shadow-lg">play_circle</span></div></div><div class="w-1/2 flex items-center"><h3 class="text-body-md font-bold text-white leading-tight line-clamp-2">Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)</h3></div></a></div></div>
+</section>
 </main>
 <!-- BottomNavBar Shared Component (Mobile Only) -->
 <nav class="md:hidden fixed bottom-0 left-0 w-full flex justify-around items-center py-2 px-4 pb-safe bg-surface-container-lowest border-t border-white/10 z-50 shadow-[0_-4px_10px_rgba(0,0,0,0.4)]">
