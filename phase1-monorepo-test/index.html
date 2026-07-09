@@ -1,0 +1,10 @@
+<!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="robots" content="noindex">
+<script>
+(function () {
+  var isMobile = /Android|iPhone|iPad|iPod|IEMobile|BlackBerry|Opera Mini|Mobile/i.test(navigator.userAgent)
+    || (window.matchMedia && window.matchMedia('(max-width: 767px)').matches);
+  location.replace(isMobile ? "mobile.html" : "desktop.html");
+})();
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=desktop.html"></noscript>
+</head><body></body></html>
